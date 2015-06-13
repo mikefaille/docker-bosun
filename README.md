@@ -6,7 +6,7 @@ This docker image contains all the dependencies needed for a bosun server. It is
 ## Usage  
 
 ```
-$ docker run -d -p 4242:4242 -p 8070:8070 stackexchange/bosun
+$ docker run -d -p 4242:4242 -p 8070:8070 mikefaille/docker-bosun
 ```
   
 Bosun should now be running on port 8070 on your docker host. OpenTSDB's interface can be accessed on port 4242.  
